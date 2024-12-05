@@ -3320,6 +3320,7 @@ __metadata:
     expo-status-bar: "npm:~2.0.0"
     react: "npm:18.3.1"
     react-native: "npm:0.76.3"
+    react-native-webview: "npm:^13.12.5"
     typescript: "npm:^5.3.3"
   languageName: unknown
   linkType: soft
@@ -4302,7 +4303,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"invariant@npm:^2.2.4":
+"invariant@npm:2.2.4, invariant@npm:^2.2.4":
   version: 2.2.4
   resolution: "invariant@npm:2.2.4"
   dependencies:
@@ -6275,6 +6276,19 @@ __metadata:
   version: 18.3.1
   resolution: "react-is@npm:18.3.1"
   checksum: 10c0/f2f1e60010c683479e74c63f96b09fb41603527cd131a9959e2aee1e5a8b0caf270b365e5ca77d4a6b18aae659b60a86150bb3979073528877029b35aecd2072
+  languageName: node
+  linkType: hard
+
+"react-native-webview@npm:^13.12.5":
+  version: 13.12.5
+  resolution: "react-native-webview@npm:13.12.5"
+  dependencies:
+    escape-string-regexp: "npm:^4.0.0"
+    invariant: "npm:2.2.4"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/c738e622fa29837e0715e0632c8b8dafd3086bcef115353b0fab23d94169a789cefa7f7980206278612927f2fe236488eebf34795a6aa49a812a179e36c85d2c
   languageName: node
   linkType: hard
 
