@@ -19,13 +19,13 @@ To run your project, run one of the following yarn commands.
 › Press s │ switch to development build
 
 › Press a │ open Android
+
 › Press i │ open iOS simulator
+
 › Press w │ open web
 
 › Press j │ open debugger
+
 › Press r │ reload app
-› Press m │ toggle menu
-› shift+m │ more tools
-› Press o │ open project code in your editor
 
 › Press ? │ show all commands
